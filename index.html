@@ -10,6 +10,17 @@
         <link rel="apple-touch-icon" sizes="167x167" href="image/touch-icon-ipad-retina.png">
     </head>
     <body>
-    <iframe src="iframe.html" width="100%" height="100%" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
+        <div style="width:100%;height:100%;max-width:100%">
+            <div id="game"></div>
+        </div>
+        <script>
+            EJS_player = "#game";
+            EJS_core = "gb";
+            EJS_gameName = "Moomin no Daibouken";
+            EJS_color = "#ff80ff";
+            EJS_pathtodata = "https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/";
+            EJS_gameUrl = "Moomin's Tale (Europe) (En,Fr,De).zip";
+        </script>
+        <script src="https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js"></script>
     </body>
 </html>
